@@ -1,14 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Metanit.com</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    let message = "Hello TypeScript!";
+    function hello() {
+      console.log(message);
+    }
+
+    function sum(a, b) {
+      return a + b;
+    }
+
+    const tom = {
+      name: "Tom",
+      age: 37,
+      print(data) {
+        console.log(`${data} Name: ${this.name}  Age: ${this.age}`);
+      }
+    }
+
+    var points = [{ X: 10, Y: 34 },
+    { X: 24, Y: 65 },
+    { X: 89, Y: 12 }];
+
+    class Person {
+      constructor(name, age) {
+        this.name = name;
+        this.age = age;
+      }
+      display() {
+        console.log(this.name, this.age);
+      }
+    }
+  </script>
+  <script defer src="./src/app.js"></script>
 </head>
 
 <body>
-  <h2>Модули в TypeScript</h2>
-  <script type="module" src="./src/main.js"></script>
+
+  <h1>Suh dude!</h1>
+
 </body>
 
 </html>
