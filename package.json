@@ -26,5 +26,8 @@
     "arrowParens": "avoid",
     "tabWidth": 2,
     "printWidth": 100
+  },
+  "dependencies": {
+    "class-validator": "^0.13.2"
   }
 }
